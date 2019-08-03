@@ -53,8 +53,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Camerasystem.cs" />
+     <Compile Include="Assets\Doorspawn.cs" />
+     <Compile Include="Assets\Enemove2.cs" />
+     <Compile Include="Assets\Enemyshotmove.cs" />
+     <Compile Include="Assets\Enemyweapon.cs" />
+     <Compile Include="Assets\camerascript.cs" />
+     <Compile Include="Assets\coinscript.cs" />
+     <Compile Include="Assets\enemymove.cs" />
      <Compile Include="Assets\playercontrol.cs" />
+     <Compile Include="Assets\playerscript.cs" />
+     <Compile Include="Assets\scripts\PlayerScorescript.cs" />
      <Compile Include="Assets\scripts\Playercontroller.cs" />
+     <Compile Include="Assets\speedup.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Max/git/tilemap/tutorial2.2 Tilemap/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

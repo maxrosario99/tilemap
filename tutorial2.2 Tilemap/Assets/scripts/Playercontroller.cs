@@ -29,6 +29,15 @@ public class Playercontroller : MonoBehaviour
 
         rb2d.AddForce(movement*speed);
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Coin"))
+        {
+            other.gameObject.SetActive (false);
+        }
+    }
+
     void OnCollisionStay2D(Collision2D collision)
     {
         if(collision.collider.tag == "Ground")

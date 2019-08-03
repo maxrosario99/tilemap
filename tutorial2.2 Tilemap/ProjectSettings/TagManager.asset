@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Coin
+  - Platform
+  - scoretext
+  - enemy
+  - Speedup
+  - shot
   layers:
   - Default
   - TransparentFX
@@ -50,4 +56,13 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 2988626819
+    locked: 0
+  - name: coin
+    uniqueID: 2376687409
+    locked: 0
+  - name: enemy
+    uniqueID: 3544725963
+    locked: 0
+  - name: door
+    uniqueID: 2285423107
     locked: 0
